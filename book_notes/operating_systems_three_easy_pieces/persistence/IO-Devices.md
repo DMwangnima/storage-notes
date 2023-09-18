@@ -14,7 +14,7 @@ Input/Output are very important for computers. Without them, computers do not ma
 
 (1)Classical diagram of a typical system:
 
-![IO Devices-picture1](./materials/IO Devices-picture1.png)
+![IO-Devices-picture1](./materials/IO-Devices-picture1.png)
 
 From top to bottom, performance of devices decreases in order.
 
@@ -33,7 +33,7 @@ Summary:
 
 (3)Modern system architecture:
 
-![IO Devices-picture2](./materials/IO Devices-picture2.png)
+![IO-Devices-picture2](./materials/IO-Devices-picture2.png)
 
 Key point and terminology:
 
@@ -46,7 +46,7 @@ Key point and terminology:
 
 A device has two important components: interface(abstraction) and internal structure(implementation). Just like this:
 
-![IO Devices-picture3](./materials/IO Devices-picture3.png)
+![IO-Devices-picture3](./materials/IO-Devices-picture3.png)
 
 #### The canonical protocol
 
@@ -76,11 +76,11 @@ System Call => OS issues a request => put the calling process to sleep and conte
 
 Interrupts allow for **overlap** of computation and I/O => improve utilization.
 
-![IO Devices-picture4](./materials/IO Devices-picture4.png)
+![IO-Devices-picture4](./materials/IO-Devices-picture4.png)
 
 =>
 
-![IO Devices-picture5](./materials/IO Devices-picture5.png)
+![IO-Devices-picture5](./materials/IO-Devices-picture5.png)
 
 (1 and 2 mean the concrete process that utilize CPU. p means CPU is polling.)
 
@@ -100,6 +100,6 @@ Interrupts allow for **overlap** of computation and I/O => improve utilization.
 
 When using **programmed I/O** to transfer a large chunk of data to a device, CPU wastes a lot of time. Timeline would be like this:
 
-![IO Devices-picture6](./materials/IO Devices-picture6.png)
+![IO-Devices-picture6](./materials/IO-Devices-picture6.png)
 
 With **PIO**, CPU spends too much time moving data to and from devices by hand.
